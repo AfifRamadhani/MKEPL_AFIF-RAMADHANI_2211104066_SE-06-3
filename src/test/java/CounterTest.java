@@ -24,7 +24,7 @@ public class CounterTest {
 		Counter testCounter = new Counter();
 		
 		for(int i = 1; i <10; i++) {
-			testCounter.increment();
+			testCounterw.incrementw();
 			assertEquals(testCounter.getCount(), i);
 		}
 	}
